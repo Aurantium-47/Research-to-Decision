@@ -8,7 +8,7 @@
 
 [安装与触发](docs/installation.md) · [决策效果示例](examples/research-to-decision.md) · [同类比较](docs/comparison.md) · [真实验收](docs/verification.md) · [技术与来源](docs/third-party.md)
 
-Research-to-Decision 是 **OpenInquire 的升级版**，沿用本仓库地址和历史。保留中文平台深读、21 个只读 MCP 工具和本地视频处理，新增基于 **BMad Deep Recon 原版**的研究与决策入口。工具选型、学习路线、产品比较、项目方案，都可以从一句自然语言问题开始。
+Research-to-Decision 是 **OpenInquire 的升级版**，由原仓库更名，保留提交历史。保留中文平台深读、21 个只读 MCP 工具和本地视频处理，新增基于 **BMad Deep Recon 原版** 的研究与决策入口。工具选型、学习路线、产品比较、项目方案，都可以从一句自然语言问题开始。
 
 > **“用调研抉择帮我选。我不确定该看哪些条件，你先补查遗漏的需求；比较实际利弊，告诉我首选、代价，以及什么情况下应该换一个。有必要就做个小演示。”**
 
@@ -49,9 +49,9 @@ flowchart LR
 
 ## 两个入口，按目的触发
 
-- **要选方案：**说“调研抉择”“利弊抉择 skill”，或明确指定 `$research-decide`。
-- **只要找材料、读收藏或学视频：**指定 `$chinese-platform-research`，继续使用原有平台调研流程。
-- **要找 skill：**决策入口可调用已安装的 `find-skills` 发现候选；没有它也能直接查目录和仓库。两个入口不会递归把任务转来转去。
+- **要选方案：** 说“调研抉择”“利弊抉择 skill”，或明确指定 `$research-decide`。
+- **只要找材料、读收藏或学视频：** 指定 `$chinese-platform-research`，继续使用原有平台调研流程。
+- **要找 skill：** 决策入口可调用已安装的 `find-skills` 发现候选；没有它也能直接查目录和仓库。两个入口不会递归把任务转来转去。
 
 下面是保留的平台搜集与多模态能力。
 

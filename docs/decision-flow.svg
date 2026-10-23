@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="250" viewBox="0 0 1080 250" role="img" aria-labelledby="title desc">
+<title id="title">Research-to-Decision：从问题到选择</title>
+<desc id="desc">澄清需求、调整检索、核对证据、比较验证、条件推荐；关键证据不足时回到检索。</desc>
+<rect width="1080" height="250" rx="16" fill="#f5f7fa"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#172b3a">
+<text x="32" y="39" font-size="17" font-weight="700">从问题到选择，让每一步都服务于最后的决定</text>
+<g fill="#fff" stroke="#cbd5df">
+<rect x="30" y="68" width="180" height="100" rx="10"/><rect x="240" y="68" width="180" height="100" rx="10"/><rect x="450" y="68" width="180" height="100" rx="10"/><rect x="660" y="68" width="180" height="100" rx="10"/><rect x="870" y="68" width="180" height="100" rx="10"/>
+</g>
+<g font-size="20" font-weight="700" text-anchor="middle">
+<text x="120" y="108">澄清需求</text><text x="330" y="108">调整检索</text><text x="540" y="108">核对证据</text><text x="750" y="108">比较验证</text><text x="960" y="108" fill="#13795b">条件推荐</text>
+</g>
+<g font-size="14" fill="#526675" text-anchor="middle">
+<text x="120" y="139">补出遗漏的判断条件</text><text x="330" y="139">换角度找可行路线</text><text x="540" y="139">原文、评论、代码、视频</text><text x="750" y="139">真实利弊与必要小测</text><text x="960" y="139">首选、代价、改选条件</text>
+</g>
+<g font-size="24" fill="#8293a0" text-anchor="middle"><text x="225" y="126">→</text><text x="435" y="126">→</text><text x="645" y="126">→</text><text x="855" y="126">→</text></g>
+<text x="32" y="214" font-size="15" fill="#526675">关键缺口仍未解决 → 回到检索补证据　　有新情况 → 更新原判断</text>
+</g></svg>

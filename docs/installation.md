@@ -2,7 +2,7 @@
 
 ## 完整调研与决策包
 
-下载或克隆本仓库后，将下列 **9 个目录一起**放进宿主支持的 skills 目录：
+下载或克隆本仓库后，将下列 **9 个目录一起**放进宿主支持的 skills 目录。它们共同组成一个调研包：`research-decide` 是日常总入口，`research-search` 和 `chinese-platform-research` 是可单独调用的子模块，其余为原版研究流程及支持文件。装好后通常只需说“用调研 skill 帮我……”，无需逐个运行：
 
 ```text
 research-decide

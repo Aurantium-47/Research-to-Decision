@@ -1,4 +1,4 @@
 interface:
   display_name: "调研抉择"
-  short_description: "主动问清需求、换角度深入检索，用情景推荐、利弊和效果演示辅助决定"
+  short_description: "调研总入口：自动澄清需求、检索和深读资料，比较利弊并给出选择"
   default_prompt: "使用 $research-decide 调研抉择：先弄清我的需求，按主题调用技能发现或平台资料搜集，给出首选、不同情况下的改选条件、真实利弊和可验证演示。"

@@ -1,5 +1,33 @@
 # 安装与配置
 
+## 完整调研与决策包
+
+下载或克隆本仓库后，将下列 **8 个目录一起**放进宿主支持的 skills 目录：
+
+```text
+research-decide
+chinese-platform-research
+bmad
+bmod-core-tools
+bmod-method
+bmad-deep-recon
+bmad-advanced-elicitation
+bmad-review
+```
+
+Codex 默认位置是用户目录下 `.codex/skills`；自定义了 `CODEX_HOME` 则使用其 `skills` 子目录。同名目录已有内容时先比较，保留个人修改，不直接覆盖。`bmod-*` 是原版模块元数据，不是用户直接调用的技能；这里没有安装 BMad 全套软件开发工作流。
+
+安装 [uv](https://docs.astral.sh/uv/getting-started/installation/) 后，在要研究的项目中说：
+
+> 使用 `$research-decide`，初始化这里的 BMad 研究环境，帮我调研【问题】并选出适合我的方案。
+
+入口会用原版 setup 初始化 `_bmad`，读取项目设置并合并随包提供的中文决策配置。实际报告写在当前项目，不写进技能安装目录。日常可直接说“调研抉择”或“利弊抉择 skill”；纯平台材料任务用 `$chinese-platform-research`。宿主未刷新技能列表时，重新加载会话。
+
+**最低运行条件：**能读取本地技能并执行命令的 Agent、`uv`、进行 Run 时可用的网络检索工具。Windows 已做隔离目录运行检查；该流程不依赖 WSL。它使用宿主模型与工具，不自带模型或搜索服务。多 Agent 研究需要宿主支持并允许并行；没有对应能力时不能声称执行过独立评审。单次模型、搜索或付费数据成本取决于所用服务。
+
+`find-skills` 可选；没有它可以直接查技能目录和 GitHub。浏览器、中文平台登录、专用适配器和视频模型按任务接入，不是每个决策都要装。详细原版接入步骤见 [BMad 接入说明](../skills/research-decide/references/bmad-integration.md)，版本及许可见[第三方来源](third-party.md)。
+
+## 平台读取、MCP 与视频能力
 
 按任务选择组件：先安装 Skill，再连接需要的浏览器、MCP 或视频处理环境。
 

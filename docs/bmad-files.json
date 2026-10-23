@@ -1,0 +1,430 @@
+{
+  "repository": "bmad-code-org/BMAD-METHOD",
+  "commit": "61e01f82644c4bb533750cfa0d6d61ab61d2cc9b",
+  "files": [
+    {
+      "path": "skills/bmad/bmod.toml",
+      "sha256": "6b44fa7184345f8465176cc23ff7ff1c9718fc100d377b9e8743dabbe82eebda"
+    },
+    {
+      "path": "skills/bmad/SKILL.md",
+      "sha256": "a2740b6080a7b79a5a854d7c1261d029e126d19794c4d7038898264f43f1fa64"
+    },
+    {
+      "path": "skills/bmad/assets/config.template.toml",
+      "sha256": "9d955137e614026921752b22934986cea6b1f757903172c64af110ca7d12c029"
+    },
+    {
+      "path": "skills/bmad/references/help.md",
+      "sha256": "74d483d9fdff8b84b7e6f7f4142f3b54f1d7c1c4aeb73c1f89fe7bcb58847fce"
+    },
+    {
+      "path": "skills/bmad/references/initiative.md",
+      "sha256": "c301eacd9024e87464d82ee82f1c6300710112470f18f678acfbb0179497bdeb"
+    },
+    {
+      "path": "skills/bmad/references/migrate.md",
+      "sha256": "02c8f7b8f4ee3c4a2ce038a48ae30fe8009375c66961500b636101c3a2aea65c"
+    },
+    {
+      "path": "skills/bmad/references/setup.md",
+      "sha256": "bf60d54bfbd0f982aaee25a9cef7b18c4c87ceea6b2cb05a43afe5cedff68cb6"
+    },
+    {
+      "path": "skills/bmad/scripts/config_utils.py",
+      "sha256": "a4bba671cb3aedbf80fa4309d9c96afe6674f8de656a44a7fe67324815de437d"
+    },
+    {
+      "path": "skills/bmad/scripts/knowledge.py",
+      "sha256": "f0ed83bfb3e4effc2c34e6f1d989a71d8164b3f04e2d50ef89deb7195ee6272a"
+    },
+    {
+      "path": "skills/bmad/scripts/memlog.py",
+      "sha256": "aedb4db43d186105d46f58ac8f3dc00567c108af00a1d4e71b17580b0e649749"
+    },
+    {
+      "path": "skills/bmad/scripts/migrate_v6.py",
+      "sha256": "a1bcbf7e5d2cb7b3daafc3efebfbaf467ee9b1c3cf197f2e6bc9548085e8950e"
+    },
+    {
+      "path": "skills/bmad/scripts/render_skill.py",
+      "sha256": "82b4d567c335a596d086d94b4772d0a4a9e09065f84b45c3647276593d02552c"
+    },
+    {
+      "path": "skills/bmad/scripts/resolve_config.py",
+      "sha256": "c4cba3411d49a696d2e545a3cd3b77e8042aa867ef1ce7de2af8d3b8df158f60"
+    },
+    {
+      "path": "skills/bmad/scripts/resolve_customization.py",
+      "sha256": "92f488e327338610dc380734b5b55d6d8c671716665dfcb791f31e7dd3fdb1e2"
+    },
+    {
+      "path": "skills/bmad/scripts/roster.py",
+      "sha256": "f9bdf9079d2d5a09ed55e5e34da6a0d07be371393d7a1797c74b409f6d7e1f1c"
+    },
+    {
+      "path": "skills/bmad/scripts/setup.py",
+      "sha256": "631a0a634c0fd53527d6b7a1de35f9ad8506c2337aca58e6cc67f2c0045ef4d1"
+    },
+    {
+      "path": "skills/bmad/scripts/setup_check.py",
+      "sha256": "866ac9f49d3bafa91c43735d990afa3668dee9de73913a30a6109eb96ba167ce"
+    },
+    {
+      "path": "skills/bmad/scripts/stamp_release.py",
+      "sha256": "d73a50b404ffdb3be07d17032ff8713a28c6fd22f0999a32bdfdc3532634e01c"
+    },
+    {
+      "path": "skills/bmad/scripts/validate_manifests.py",
+      "sha256": "3bd7d19b20e771d612903fbe917768b08519b29286735fc33131804fd2d513f0"
+    },
+    {
+      "path": "skills/bmad/scripts/tests/test_config_utils.py",
+      "sha256": "667d0ebf860e46c83475510c10f0df7caf67463c08ab632dcf2e29f312833a51"
+    },
+    {
+      "path": "skills/bmad/scripts/tests/test_knowledge_migrations.py",
+      "sha256": "3c5e709bd198ba8e9df96a1985371b689d0fe1bafd7da4d88a4c5befe972af0f"
+    },
+    {
+      "path": "skills/bmad/scripts/tests/test_memlog.py",
+      "sha256": "80af8688ce29961bb1fe36c1307ad88a1663028b05377385ee6de462ec323226"
+    },
+    {
+      "path": "skills/bmad/scripts/tests/test_render_skill.py",
+      "sha256": "4816644ac5965c8d57aba4d41478121684334178c976472ec6cda1082f288fa2"
+    },
+    {
+      "path": "skills/bmad/scripts/tests/test_resolve_config.py",
+      "sha256": "8c5441f43111698a4bf5b3b49be3a0890e8776f61fefb3c9fe7e726f891b7dee"
+    },
+    {
+      "path": "skills/bmad/scripts/tests/test_resolve_customization.py",
+      "sha256": "f753722d2e5cdb59342fb219a6cc25f79426e315d509e2a59ccffce4f166d9b1"
+    },
+    {
+      "path": "skills/bmad/scripts/tests/test_roster.py",
+      "sha256": "292c6e59c0fbec3884068750f981cefb39a7d4cfec1f631c5f7cd96d3ade3c86"
+    },
+    {
+      "path": "skills/bmad/scripts/tests/test_setup_check.py",
+      "sha256": "a07fa2e952048f75d1ba33e589d4b10ab9c374bc56d2fd19055a437642c5a3b8"
+    },
+    {
+      "path": "skills/bmad/scripts/tests/test_stamp_release.py",
+      "sha256": "8c95127d53ce873a23420dec13117732f803aa8cf2ed4c24c05b1169cb76c858"
+    },
+    {
+      "path": "skills/bmad/scripts/tests/test_validate_manifests.py",
+      "sha256": "1cb8d5c7a1ef7c6ca9500b68f207d559f2aa625d2fc118c5130a31da84d8ee60"
+    },
+    {
+      "path": "skills/bmod-core-tools/bmod.toml",
+      "sha256": "9831c2fb0ebff6d678a660a1d5d88bdeca15aa8875144566fd21fd161935edf6"
+    },
+    {
+      "path": "skills/bmod-core-tools/retired.toml",
+      "sha256": "ffaac20fb3384fa286973ae1b9a973217939629d5499f2ad3f22e292f6c5b4c3"
+    },
+    {
+      "path": "skills/bmod-core-tools/SKILL.md",
+      "sha256": "9392dc6f150da22ba00c7ecbb25a109073128a63f218d720edb44074ec2a7109"
+    },
+    {
+      "path": "skills/bmod-core-tools/help/customization.md",
+      "sha256": "74b9d0eec699addc5ac16644e80358a1695b09e71bbf944784ab7b71e577feed"
+    },
+    {
+      "path": "skills/bmod-core-tools/help/help.md",
+      "sha256": "30e3f022f139d0d2579f541dd33826ce73e616d7e4f6917dd534f76669ab112a"
+    },
+    {
+      "path": "skills/bmod-core-tools/help/modules.md",
+      "sha256": "e7136118486463ef0d03e1ef41d05bce4ba5d8690d5497a3220f21368b9dc40b"
+    },
+    {
+      "path": "skills/bmod-core-tools/help/party-mode.md",
+      "sha256": "a3668f0d7c61594fc28bc572c20ee91917d7f24a2098b6f7322ca0ad0b44196b"
+    },
+    {
+      "path": "skills/bmod-core-tools/help/research.md",
+      "sha256": "fba2140e741cf82f28bf02979f2812c2a206fa0322ce0fd5efd507e6de05c421"
+    },
+    {
+      "path": "skills/bmod-core-tools/help/team-adoption.md",
+      "sha256": "5d56248e7c71d7eb0d528898070df3a1677fe42e59818a14fadac93d48f248c5"
+    },
+    {
+      "path": "skills/bmod-method/bmod.toml",
+      "sha256": "b9c927c5581be1615264851e69c39d326d81eadaa41b415b8e61787799d28157"
+    },
+    {
+      "path": "skills/bmod-method/migration-1.toml",
+      "sha256": "e39a16f50ecbf4195df6aa3a2270f66923134dccfa41cd547dfe7ff4986459a1"
+    },
+    {
+      "path": "skills/bmod-method/migration-2.toml",
+      "sha256": "ccde4d9af5c27bfdf5df4f46d2cc5d53a114de5aa71b37f21ebd24dc1fe5a0d2"
+    },
+    {
+      "path": "skills/bmod-method/retired.toml",
+      "sha256": "6f626fa4af887b45a312d43b409997fda0878f41dcb5a25bb2ec681d0b3bf61a"
+    },
+    {
+      "path": "skills/bmod-method/roster.toml",
+      "sha256": "a0ce9d7879145d88dc74206fa534ab2d6ada4dd40cff9acf3f397ed9d99aaaca"
+    },
+    {
+      "path": "skills/bmod-method/SKILL.md",
+      "sha256": "3200579fbff4a77543d9471658bfbf86193ff7274efab3af3c935056acecaa14"
+    },
+    {
+      "path": "skills/bmod-method/help/analysis-skills.md",
+      "sha256": "1b4940beea78878518a8fe9fb9d04211c8503660301e39e19fcbd91e1efbb78f"
+    },
+    {
+      "path": "skills/bmod-method/help/artifact-lifetime.md",
+      "sha256": "df488ea4529ad56847e98bf60dfbfec6bf5316e677a6c8397a66426c7230d51e"
+    },
+    {
+      "path": "skills/bmod-method/help/existing-codebase.md",
+      "sha256": "9ec5a2f89156a02ddb2bf93555c6064d9bf25f4653cf23bd5d8271805c193809"
+    },
+    {
+      "path": "skills/bmod-method/help/help.md",
+      "sha256": "58b87ef9ff7c04135c9ef65a0191e29b13489a0ad0f952735c8003c76d5e2396"
+    },
+    {
+      "path": "skills/bmod-method/help/implementation-skills.md",
+      "sha256": "407b426476e00c02cd10139b329141278e385de4ad44646a88a6b1a6c4d94f64"
+    },
+    {
+      "path": "skills/bmod-method/help/monorepo-and-polyrepo.md",
+      "sha256": "1572a669435e416a66287fc44bfa5f32d554bd48cfa4d2f10d17f42ae8c53419"
+    },
+    {
+      "path": "skills/bmod-method/help/planning-skills.md",
+      "sha256": "ff244b930ccc40dbd8813053db6d14e17914bb2271b5ae762fb3318e2bd239ba"
+    },
+    {
+      "path": "skills/bmod-method/help/preparing-a-repo-for-agents.md",
+      "sha256": "071470406f4acede3ca253d39b316384e39d776522c0f5f5075b6ebf51e182dd"
+    },
+    {
+      "path": "skills/bmod-method/help/project-context.md",
+      "sha256": "a5f54af7dfef5713cf84368fc5b48ea11b5d83121d7362260ec1bb7b8cfcd625"
+    },
+    {
+      "path": "skills/bmod-method/help/prototyping.md",
+      "sha256": "4b76ba8f28172f95e39df3c1973cddf0d2cfff76e8731c9c435981af95cd8432"
+    },
+    {
+      "path": "skills/bmod-method/help/review-choices.md",
+      "sha256": "7b3c24bee5d39b7e6cc160fbd6c9d34b1967108700f7af0e5b8cc35b556f259c"
+    },
+    {
+      "path": "skills/bmod-method/help/ticketing-and-epics.md",
+      "sha256": "4edfcc3142558e616ac71f69ef35feebd38398d29b79a252d3506cf261cd52aa"
+    },
+    {
+      "path": "skills/bmod-method/help/ticketing-setup.md",
+      "sha256": "90df8220d98b8ff94587600f5160e915e8bc1fb7f24f5e6a70e6c96a6eb8f0c5"
+    },
+    {
+      "path": "skills/bmod-method/help/unattended-builds.md",
+      "sha256": "365349975758f68b0c2a27e0a71052cb53801baf3314551c183440191e7a0d79"
+    },
+    {
+      "path": "skills/bmod-method/help/validation-skills.md",
+      "sha256": "6959a8ec226d59bf388d603f8137d1a63a07359385a986eaa37646f21140aed1"
+    },
+    {
+      "path": "skills/bmod-method/help/working-in-an-organization.md",
+      "sha256": "ddeec45ecf7835d53e201eaf687d20d927d53d669b591656c1da6301ff08da5f"
+    },
+    {
+      "path": "skills/bmad-deep-recon/bmod.toml",
+      "sha256": "6b44fa7184345f8465176cc23ff7ff1c9718fc100d377b9e8743dabbe82eebda"
+    },
+    {
+      "path": "skills/bmad-deep-recon/customize.toml",
+      "sha256": "445a0659532e4fa71e21a828afc44f8eba7498ec3dce114edfd979b6b07b20f8"
+    },
+    {
+      "path": "skills/bmad-deep-recon/SKILL.md",
+      "sha256": "f5360d92576908b91ce97c1bb75577c4cd724d0dcefaf20dd3b460c5a738507b"
+    },
+    {
+      "path": "skills/bmad-deep-recon/assets/codebase.template.md",
+      "sha256": "c0e6ffed5d15cbb71503e15d5d7f0c13252a913ae5744f5e51ca1ff328903909"
+    },
+    {
+      "path": "skills/bmad-deep-recon/assets/research.template.md",
+      "sha256": "87d7cfa85fa5036b5a309b7bfb88f7934f50bb81f3cff02d2b49b4c7345cfc38"
+    },
+    {
+      "path": "skills/bmad-deep-recon/evals/triggers.json",
+      "sha256": "8a97e5a4fc7d6bf5028ba0cbb9bc0f2e56012c56ea032be8ad2697cdd3e3d3b9"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/codebase-analyzer.md",
+      "sha256": "ce698afdb21e32e523738b3fbe12e60f4ec221cfc6fb344380398e6755c2fdc3"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/codebase-historian.md",
+      "sha256": "348959247e3504538fcde1aab142cb35da61d06ce23ac86cd7ba07537d586f6b"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/codebase-locator.md",
+      "sha256": "505276e8e2648f29e7d3599aa1c1c2bb57652fe56e631433fe006d2095e54b97"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/codebase-verifier.md",
+      "sha256": "6d2f655b7b81332d9647e29968d7933a7544bf9d20e0d985e81642a12a406c11"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/codebase.md",
+      "sha256": "99d40e299c30c197d62f7b8ef71ea1a501d9e63defc7451e39fb366edd81fce0"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/draft.md",
+      "sha256": "68f66068d3b5cec4e3851588d4910760ee0e1fc1cf6a7d7089023df160980cac"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/finalize.md",
+      "sha256": "693e4f4883257440887aef273393bf756d9a27e1067343d1790fb33f5cab6d17"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/html-briefing.md",
+      "sha256": "d2eb0692b5d36b8d56a78b056ffb2904e34873392db403625a8f4c71a10d3e8c"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/lifecycle.md",
+      "sha256": "8498ebcd8b496397cb8cdc5c0a5b421299b11ebbefee1186eacd3542cb8a5d80"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/process.md",
+      "sha256": "dbacae76073f3dd36d5a747a406abab454b9ef76e2a9dba9ad261133e9265f09"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/run.md",
+      "sha256": "4dab2fe90c2eb1e00cff5d6e1a5cced6956533c1d6be0a10502977c52604fce0"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/selection.md",
+      "sha256": "c7aef57a8ffa15b8455f26950ff091a2b331e92011f94a1a2c5ddf0deda43001"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/synthesis.md",
+      "sha256": "65e4a62cfca08b442c11c68b5b788cff5345f679f7a01c08a57c96f30d2d1b22"
+    },
+    {
+      "path": "skills/bmad-deep-recon/references/verification.md",
+      "sha256": "0393ded4828fec69a4819d7236827910d641d09c3b61144c0211a9a78776fdd2"
+    },
+    {
+      "path": "skills/bmad-deep-recon/scripts/recon_kit.py",
+      "sha256": "fd6a312c7086e3548cb17f75e0ae9ab0d7a96e7c0a1b7b18141529c2c0d62f7f"
+    },
+    {
+      "path": "skills/bmad-deep-recon/types/academic-lit.md",
+      "sha256": "514b0b7b1184cb95363dedeb0c2298a9bf5c430c74146fe2114f31780fadb325"
+    },
+    {
+      "path": "skills/bmad-deep-recon/types/competitive.md",
+      "sha256": "39b53df87d295fdc4388719fcdf31ad2221e64afc136e669207f46d2727a3aec"
+    },
+    {
+      "path": "skills/bmad-deep-recon/types/domain.md",
+      "sha256": "3a34b2e62c3589f8c8d01158357ee9fba32648c9fdfe70035bb3ca971862896b"
+    },
+    {
+      "path": "skills/bmad-deep-recon/types/market.md",
+      "sha256": "81ac04499da441857672e29fcd7169436a7e239e67194288ac0d526ec514cb5e"
+    },
+    {
+      "path": "skills/bmad-deep-recon/types/technical.md",
+      "sha256": "55f71428c70547b89d67ef0c6cdad59caeb0ee21082cd1230c05618ba8d04707"
+    },
+    {
+      "path": "skills/bmad-deep-recon/types/user-voice.md",
+      "sha256": "1831ce46e53e8c68244d28e336c5ef9e53e64f21a00b74a817b9b2924c1e8e72"
+    },
+    {
+      "path": "skills/bmad-deep-recon/scripts/tests/test_recon_kit.py",
+      "sha256": "8ac3e355d7a8cf0b8a5e8d7ba3c3d6d9771e03e04092de0252a0825ab0066744"
+    },
+    {
+      "path": "skills/bmad-advanced-elicitation/bmod.toml",
+      "sha256": "6b44fa7184345f8465176cc23ff7ff1c9718fc100d377b9e8743dabbe82eebda"
+    },
+    {
+      "path": "skills/bmad-advanced-elicitation/customize.toml",
+      "sha256": "735a276edd51786ccfd2c3417d9a2b9dee4244a6102698981b3888f68d979ed9"
+    },
+    {
+      "path": "skills/bmad-advanced-elicitation/SKILL.md",
+      "sha256": "225a59e2a5377cfa66a4c96a58195134401b356ae3f80b3ca1306e4859141e9a"
+    },
+    {
+      "path": "skills/bmad-advanced-elicitation/assets/methods.csv",
+      "sha256": "d110ff5f076fb9421552b83692fde2c2d367734049169c7a55f7267a3dc7ef89"
+    },
+    {
+      "path": "skills/bmad-advanced-elicitation/scripts/pick_methods.py",
+      "sha256": "85084e1a607941352f71e512cd2381349c7438f3448226722b1684cb18dab871"
+    },
+    {
+      "path": "skills/bmad-advanced-elicitation/scripts/tests/test_pick_methods.py",
+      "sha256": "ae00e07b1895e2814e6793db653a900296639d759c2470366c7977cdcde857fd"
+    },
+    {
+      "path": "skills/bmad-review/bmod.toml",
+      "sha256": "6b44fa7184345f8465176cc23ff7ff1c9718fc100d377b9e8743dabbe82eebda"
+    },
+    {
+      "path": "skills/bmad-review/customize.toml",
+      "sha256": "36666ad3517e89177bdafbca7c50b3acf9e6e6d720885e3309e605e7c7b9a21b"
+    },
+    {
+      "path": "skills/bmad-review/SKILL.md",
+      "sha256": "c5fa7bc6342fc4da84549c9fddcce04313c210863613724e2c44aeee0089e9cc"
+    },
+    {
+      "path": "skills/bmad-review/references/editorial-common.md",
+      "sha256": "f0cdc72ea345b2c5dc3001477b3dfcc909ca11b78f7db8865b6763d18ffc66c8"
+    },
+    {
+      "path": "skills/bmad-review/references/lens-adversarial.md",
+      "sha256": "7c5ce97ab2f3ecb96ceb6aa76417f68c1b7df535edd3cc51666d8e1216e6e557"
+    },
+    {
+      "path": "skills/bmad-review/references/lens-edge-case-hunter.md",
+      "sha256": "5f0c4778d7b393d11156af8c1bd9bf88aafeb9d50fff5f460ca67df50d927e7d"
+    },
+    {
+      "path": "skills/bmad-review/references/lens-prose.md",
+      "sha256": "4cbcb1eaea8567d272f5db7c6cdfd74ed5a8aae6831053cb2f01cbfc2cb98b98"
+    },
+    {
+      "path": "skills/bmad-review/references/lens-structure.md",
+      "sha256": "98c08221f517133e57ef6325013935360c3365ebd7dcb8411b2050d7df507ee3"
+    },
+    {
+      "path": "skills/bmad-review/references/lens-verification-gap.md",
+      "sha256": "b84a04c48fc37b83c6e3fc54e773f8f40f960ca56c5fed2316dd74967e604091"
+    },
+    {
+      "path": "skills/bmad-review/references/structure-models.md",
+      "sha256": "f84f85070e1af75f2482757aba9d37d69d805a20826d185527e598f2ba6b9292"
+    },
+    {
+      "path": "skills/bmad-review/scripts/word_metrics.py",
+      "sha256": "be107b5740c564a8ec608ffdd4742c095ab23d8b6edeeee6b93643ff6c22a749"
+    },
+    {
+      "path": "skills/bmad-review/scripts/tests/test_word_metrics.py",
+      "sha256": "a88f87ce28f11c2a54045b7f8ab791043aacf4ddbc49d53cf10c4cab7c76534a"
+    }
+  ]
+}

@@ -1,5 +1,18 @@
 # OpenInquire 与同类工具
 
+## Research-to-Decision 新增的决策层 · 2026-10-23
+
+| 对象 | 与当前任务有关的区别 | 什么时候优先用它 |
+| --- | --- | --- |
+| [BMad Deep Recon](https://github.com/bmad-code-org/BMAD-METHOD/tree/61e01f82644c4bb533750cfa0d6d61ab61d2cc9b/skills/bmad-deep-recon) | 原版已经支持深入研究、方案选择、处理报告和更新研究。本项目复用它，增加中文平台材料与日常决策输出约定 | 已有 BMad 环境、只想使用原版方法时，无须为了决策能力重复安装本项目 |
+| [Groundwork](https://github.com/SC-Airu/groundwork-skill) | 明确采用 facts-only，把 build/kill 决策留给人；我们的交付包括首选、代价、改选条件 | 产品开工前扫描，且希望自己完成最终取舍 |
+| [last30days](https://github.com/mvanhorn/last30days-skill) | 主打近期社区发现和综合，当前也有公司研究、比较和代码库相关能力；本项目强调结合个人条件的取舍，并衔接中文站内深读 | 近期社区趋势是主要问题，暂不需要完整需求澄清与选型 |
+| [Agent Reach](https://github.com/Panniantong/Agent-Reach) | 主打网络接入与渠道能力；我们的入口组织从问题到证据再到取舍的交付 | 已有研究方法，主要缺可用渠道 |
+
+以上来自当天阅读的官方仓库，不是同题性能排名。我们把现成研究流程、平台证据与决策输出接起来；不声称上述项目无法扩展到相同用途，也不靠 Star 数证明结果更准确。[示例](../examples/research-to-decision.md)分别标明输出示意和已执行检查。
+
+## 保留的平台层比较
+
 **抖音、小红书、B站和公众号的专门读取流程，是 OpenInquire 的重点。** 它组合日常浏览器、平台适配器与视频处理，针对登录、动态页面、图文和视频选择读取方式；取得材料后，再与海外社区讨论、开源代码和技术原始资料对照，服务于选型、选题、想法验证和既有工作比较。
 
 ## 从工具能力，到你要完成的事

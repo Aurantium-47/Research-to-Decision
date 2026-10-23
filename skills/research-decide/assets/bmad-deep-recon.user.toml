@@ -1,0 +1,21 @@
+# Starter defaults for the research-decide entrypoint, 2026-10-23.
+# Upstream files remain unchanged. Existing project overrides take precedence
+# over blindly re-copying this starter profile on later invocations.
+[workflow]
+audience = "中文；先给明确选择，再解释决定排序的差异。正文中等长度，用户要求详细时展开；证据与过程留在文件。"
+output_format = "md"
+activation_steps_prepend = [
+  "沿用当前对话已确认的需求与授权。当前用户的通用调研默认在本机直接 Run，日常问题默认 loose；只询问会改变结论且无法从现有资料得到的缺口。",
+  "Select 本地调整：不强制 3–5 个候选，不凑数；先覆盖不同可行路线，再按硬约束筛选。用户权重不明确或评分无证据时，用可核查的条件取舍代替加权分数。",
+  "用户要求是起点。用领域术语、反例、差评、迁移案例及现成需求澄清方法发现可能遗漏的标准；把候选需求与已确认需求分开，不替用户制定新偏好。",
+  "两份 AI 报告或两篇转载一致，不自动构成独立核验。独立性追溯到底层原始证据；没有独立验证时保留单一来源标记，不能靠模型投票提高事实置信度。"
+]
+external_sources = [
+  "找现成 skill 时可读取已安装的相邻 find-skills/SKILL.md 发现候选；没有它就直接检索技能目录和原始仓库。核对实际入口与依赖；记录 Star 和查询日期，单项安装数另列口径。",
+  "调查真实体验或非技术选择时按需读取 chinese-platform-research/SKILL.md，选择小红书、Reddit、知乎等相关平台。读取原帖与评论；无法访问则标注，不用摘要冒充原文。"
+]
+doc_standards = [
+  "给首选、最强替代项、明确淘汰原因，以及哪种条件变化会改选；每个重要利弊都要说明对当前用户的实际影响。若把项目名互换后描述仍成立，补查或重写。",
+  "若演示可能改变选择，对主要候选用同一个小任务展示输入、关键输出、效果与局限。真实运行、源码审查、官方示例和手写示意分别标明；不能把安装成功写成效果验证。",
+  "可以深入检索，但不要把全部过程塞给用户，不反复追加与当前决定无关的免责声明。保留偏好原话及可变性。"
+]

@@ -8,6 +8,7 @@
 | 调研Skill、两段本地助手脚本 | 是 | 支持Skill的宿主；Python3.12已验收 |
 | 技术社区只读MCP（21工具） | 是 | Python3.12与 `mcp/requirements.txt` |
 | 日常浏览器读取中文平台 | 否 | 宿主支持的浏览器扩展、相应站点正常登录 |
+| 微信指定分享会话 | 否 | 宿主另配桌面 Computer Use 插件、正常登录与本次指定的读取范围 |
 | B站/公众号专用适配器 | 否 | 单独安装和验证，见渠道文档 |
 | last30days候选引擎 | 否，可选 | 独立安装的上游代码；封装只启用HN/GitHub |
 | 视频本地处理 | 助手脚本是 | FFmpeg/FFprobe、Pillow；转写另需faster-whisper和完整本地模型 |

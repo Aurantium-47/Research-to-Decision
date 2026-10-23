@@ -1,0 +1,4 @@
+interface:
+  display_name: "检索导航"
+  short_description: "按问题选择渠道、拆关键词并查找初步来源，可单独规划或直接搜索"
+  default_prompt: "使用 $research-search 为这个问题选择搜索渠道、设计不同角度的关键词，并实际查一轮有用来源："

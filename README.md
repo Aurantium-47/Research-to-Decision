@@ -38,10 +38,11 @@ Research-to-Decision 是 **OpenInquire 的升级版**，由原仓库更名，保
 
 ![从需求澄清、检索和证据到比较验证与条件推荐](docs/decision-flow.svg)
 
-## 两个入口，按目的触发
+## 三个入口，按目的触发
 
 - **要选方案：** 说“调研抉择”“利弊抉择 skill”，或明确指定 `$research-decide`。
-- **只要找材料、读收藏或学视频：** 指定 `$chinese-platform-research`，继续使用原有平台调研流程。
+- **要选搜索渠道、设计关键词或先找资料：** 说“检索导航”“搜索导航”，或指定 `$research-search`。可只给搜索方案，也可实际查一轮来源；独立使用不需要初始化 BMad。[检索导航入口](skills/research-search/SKILL.md)
+- **要深读原帖、整理收藏或学视频：** 指定 `$chinese-platform-research`，继续使用原有平台调研流程。
 - **要找 skill：** 决策入口可调用已安装的 `find-skills` 发现候选；没有它也能直接查目录和仓库。两个入口不会递归把任务转来转去。
 
 下面是保留的平台搜集与多模态能力。

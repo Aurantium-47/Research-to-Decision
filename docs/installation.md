@@ -2,10 +2,11 @@
 
 ## 完整调研与决策包
 
-下载或克隆本仓库后，将下列 **8 个目录一起**放进宿主支持的 skills 目录：
+下载或克隆本仓库后，将下列 **9 个目录一起**放进宿主支持的 skills 目录：
 
 ```text
 research-decide
+research-search
 chinese-platform-research
 bmad
 bmod-core-tools
@@ -16,6 +17,8 @@ bmad-review
 ```
 
 Codex 默认位置是用户目录下 `.codex/skills`；自定义了 `CODEX_HOME` 则使用其 `skills` 子目录。同名目录已有内容时先比较，保留个人修改，不直接覆盖。`bmod-*` 是原版模块元数据，不是用户直接调用的技能；这里没有安装 BMad 全套软件开发工作流。
+
+只要独立的“去哪查、怎么搜、先找来源”，可仅安装 `research-search`，直接使用 `$research-search` 或说“检索导航”。它不要求安装 BMad、配置浏览器或安装其他技能；实际搜索需要宿主可用的检索工具，具体平台深读按任务连接。`find-skills` 和平台研究入口可选，不强制为了规划搜索而安装它们。
 
 安装 [uv](https://docs.astral.sh/uv/getting-started/installation/) 后，在要研究的项目中说：
 

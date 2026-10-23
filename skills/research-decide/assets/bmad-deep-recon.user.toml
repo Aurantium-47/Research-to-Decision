@@ -11,7 +11,7 @@ activation_steps_prepend = [
   "两份 AI 报告或两篇转载一致，不自动构成独立核验。独立性追溯到底层原始证据；没有独立验证时保留单一来源标记，不能靠模型投票提高事实置信度。"
 ]
 external_sources = [
-  "找现成 skill 时可读取已安装的相邻 find-skills/SKILL.md 发现候选；没有它就直接检索技能目录和原始仓库。核对实际入口与依赖；记录 Star 和查询日期，单项安装数另列口径。",
+  "按需读取相邻 research-search/SKILL.md 选择渠道、设计关键词与执行检索；它可以单独调用，不依赖BMad。找技能可调用find-skills发现候选，再核对原始仓库、实际入口与依赖，记录Star与日期、单项安装量口径。",
   "调查真实体验或非技术选择时按需读取 chinese-platform-research/SKILL.md，选择小红书、Reddit、知乎等相关平台。读取原帖与评论；无法访问则标注，不用摘要冒充原文。"
 ]
 doc_standards = [
